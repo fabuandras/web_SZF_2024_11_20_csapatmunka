@@ -26,3 +26,45 @@ h1 {
     color: #ffffff;
     text-transform: uppercase;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ceaa68;
+    border: 3px solid brown;
+    border-radius: 10px; 
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 10px; 
+    border: 1px solid maroon;
+
+    
+
+}
+  
+li a:hover:not(.active) {
+    background-color: #7e5a0c;
+}
+  
+.active {
+    background-color: #814909;
+}
+footer{
+    border-top:1px solid brown;
+    text-align: center;
+    padding:0px ;
+    color: brown;
+
+    
+}
