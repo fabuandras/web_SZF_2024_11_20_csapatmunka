@@ -26,6 +26,7 @@ h1 {
     color: #ffffff;
     text-transform: uppercase;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -48,9 +49,6 @@ li a {
     text-decoration: none;
     border-radius: 10px; 
     border: 1px solid maroon;
-
-    
-
 }
   
 li a:hover:not(.active) {
@@ -60,11 +58,83 @@ li a:hover:not(.active) {
 .active {
     background-color: #814909;
 }
+
 footer{
     border-top:1px solid brown;
     text-align: center;
     padding:0px ;
     color: brown;
-
-    
 }
+
+
+
+/* Reszponzívitás */
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas:
+    "h h"
+    "n n"
+    "a as"
+    "f f";
+}
+
+header {
+    grid-area: h;
+}
+
+nav {
+    grid-area: n;
+}
+
+article {
+    grid-area: a;
+}
+
+aside {
+    grid-area: as;
+}
+
+footer {
+    grid-area: f;
+}
+
+
+
+/* Tabletnézet: 800px */
+
+@media screen and (max-width: 800px) {
+    main {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-areas:
+        "h h"
+        "n n"
+        "a as"
+        "f f";
+    }
+}
+
+
+
+/* Mobilnézet: 600px */
+
+@media screen and (max-width: 600px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "h"
+        "n"
+        "as"
+        "a"
+        "f";
+    }
+
+    header {
+        height: 100%;
+    }
+}
+
+/* nav középre: tabletnézetben, és gépnézetben (kép) height beállítása */
