@@ -3,8 +3,9 @@ header{
 }
 main{
     margin:auto ;
-    
+
 }
+
 input[type=text], select {
     width: 100%;
     padding: 12px 20px;
@@ -35,3 +36,72 @@ div {
     background-color: #d3894d;
     padding: 20px;
 }
+/* Reszponzívitás */
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "h"
+    "n"
+    "a"
+    "f";
+}
+
+header {
+    grid-area: h;
+}
+
+nav {
+    grid-area: n;
+}
+
+article {
+    grid-area: a;
+}
+
+
+footer {
+    grid-area: f;
+}
+
+
+
+/* Tabletnézet: 800px */
+
+@media screen and (max-width: 800px) {
+    main {
+        display: grid;
+        grid-template-columns:1fr;
+        grid-template-areas:
+        "h"
+        "n"
+        "a"
+        "f";
+    }
+}
+
+
+
+/* Mobilnézet: 600px */
+
+@media screen and (max-width: 600px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "h"
+        "n"
+        "a"
+        "f";
+    }
+
+    header {
+        height: 100%;
+    }
+}
+
+/* nav középre: tabletnézetben, és gépnézetben(alap nézet) (kép) height beállítása 
+body/main háttárkép
+aside fajok oldalográs
+aside article tartalom*/
