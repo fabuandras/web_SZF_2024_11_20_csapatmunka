@@ -23,11 +23,19 @@ div {
 h2{
     border-bottom: 2px solid black;
 }
-
-img{
-    float: right;
+   
+img {   
     width: 50%;
     border-radius: 15px;
     border: 3px solid rgb(78, 38, 1);
     padding: 0px;
+    float: right;
+}
+.jobb img{
+    float: right;
+}
+
+.bal img{
+    float: left;
+    
 }
