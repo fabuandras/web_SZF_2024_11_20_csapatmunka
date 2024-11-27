@@ -20,3 +20,35 @@ article>p {
 aside>p {
     color: white;
 }
+div {
+    background-color: #e9a476;
+    border:1px solid black;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+h2{
+    border-bottom: 2px solid black;
+}
+   
+img {   
+    width: 50%;
+    border-radius: 15px;
+    border: 3px solid rgb(78, 38, 1);
+    padding: 0px;
+    float: right;
+}
+.jobb img{
+    float: right;
+}
+
+.bal img{
+    float: left;
+    
+}
+aside{
+    background-color: #e9a476;
+    border:1px solid black;
+    padding: 10px;
+    border-radius: 15px;
+}
