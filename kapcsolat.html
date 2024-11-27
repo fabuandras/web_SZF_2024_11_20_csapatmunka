@@ -1,36 +1,101 @@
 <!DOCTYPE html>
 <html lang="hu">
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="csapatmunka">
-    <meta name="keywords" content="HTML, CSS, JavaScript">
-    <meta name="author" content="Ilyés Borbála, Fabu András">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="oldalalakitas.css">
-    <link rel="stylesheet" href="silus_Kapcsolat.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="csapatmunka" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Ilyés Borbála, Fabu András" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="oldalalakitas.css" />
+    <link rel="stylesheet" href="silus_Kapcsolat.css" />
     <title>Ilyés Borbála & Fabu András</title>
-</head>
-<body>
+  </head>
+  <body>
     <main>
-        <header>
-            <h1>Állatmenhely - örökbefogadás</h1>
-        </header>
-        <nav>
-            <ul>
-                <li><a class="active" href="index.html">Kutyamentés</a></li>
-                <li><a href="masik.html">Macskamentés</a></li>
-                <li><a href="kapcsolat.html">Kapcsolat</a></li>
-            </ul>
-        </nav>
-        <article>
+      <header>
+        <h1>Állatmenhely - örökbefogadás</h1>
+      </header>
+      <nav>
+        <ul>
+          <li><a class="active" href="index.html">Kutyamentés</a></li>
+          <li><a href="masik.html">Macskamentés</a></li>
+          <li><a href="kapcsolat.html">Kapcsolat</a></li>
+        </ul>
+      </nav>
+      <article>
+        <h3>Örökbefogadás</h3>
 
-        </article>
-        <aside>
+        <div>
+          <form action="/action_page.php">
+            <label for="fname">Vezetéknév</label>
+            <input
+              type="text"
+              id="fname"
+              name="firstname"
+              placeholder="Vezetékneved..."
+            />
 
-        </aside>
-        <footer>
-            <p>Fabu András és Ilyés Borbála</p>
-        </footer>
+            <label for="lname">Keresztnév</label>
+            <input
+              type="text"
+              id="lname"
+              name="lastname"
+              placeholder="Keresztneved.."
+            />
+            <label for="email">E-mail cím</label>
+            <input
+              type="text"
+              id="email"
+              name="email"
+              placeholder="valami@gmail.com"
+            />
+
+            <label for="tszam">Telefonszám</label>
+            <input
+              type="int"
+              id="tszam"
+              name="tszam"
+              placeholder="+36 xx xxx xxxx"
+            />
+            <p></p>
+            <label for="allatfajta">Állat fajta</label>
+            <select id="allatfajta" name="allatfajta">
+              <option value="Kutya">Kutya-Labrador retriever</option>
+              <option value="Kutya">Kutya-Golden retriever</option>
+              <option value="Kutya">Kutya-Német juhászkutya</option>
+              <option value="Kutya">Kutya-Angol bulldog</option>
+              <option value="Kutya">Kutya-Francia bulldog</option>
+              <option value="Kutya">Kutya-Uszkár</option>
+              <option value="Kutya">Kutya-Rottweiler</option>
+              <option value="Kutya">Kutya-Beagle</option>
+              <option value="Kutya">Kutya-Yorkshire terrier</option>
+              <option value="Kutya">Kutya-Szibériai husky</option>
+              <option value="Macska">Macska-Manx</option>
+              <option value="Macska">Macska-Amerikai rövidszőrű cica</option>
+              <option value="Macska">Macska-Chausie macska</option>
+              <option value="Macska">Macska-Török angóra</option>
+              <option value="Macska">Macska-Ragdoll</option>
+              <option value="Macska">Macska-Toyger</option>
+              <option value="Macska">Macska-Perzsa macska</option>
+              <option value="Macska">Macska-Ashera macska</option>
+              <option value="Macska">Macska-Homoki macska</option>
+              <option value="Macska">Macska-Skót fold</option>
+            </select>
+            <!-- https://dogx.hu/kutyafajtak-leirasa/sziberiai-husky/ -->
+            <!-- https://www.haziallat.hu/macska/macskafajtak/a-10-legszebb-macskafajta/5027/ -->
+
+            <h2>Tájékoztatás</h2>
+            <p>A fizetés és az átvétel csak szeméLyesen valosítható meg itt!!!!!</p>
+            
+
+            <input type="submit" value="Küldés" />
+          </form>
+        </div>
+      </article>
+      <aside></aside>
+      <footer>
+        <p>Fabu András és Ilyés Borbála</p>
+      </footer>
     </main>
-</body>
+  </body>
 </html>
