@@ -1,3 +1,14 @@
-header{
+/*{
     background-image: url(kepek/cica_fejlec.jpg);
+}*/
+
+body {
+    background-image: url(kepek/main_hatter.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main {
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
 }

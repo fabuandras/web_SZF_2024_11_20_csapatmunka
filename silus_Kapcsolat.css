@@ -1,10 +1,15 @@
-header{
-    background-image: url(kepek/kapcsolat_fejlec.PNG);
+body {
+    background-image: url(kepek/main_hatter.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-main{
-    margin:auto ;
-    
+
+main {
+    margin: auto;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
 }
+
 input[type=text], select {
     width: 100%;
     padding: 12px 20px;
