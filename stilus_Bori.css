@@ -39,3 +39,9 @@ img {
     float: left;
     
 }
+aside{
+    background-color: #e9a476;
+    border:1px solid black;
+    padding: 10px;
+    border-radius: 15px;
+}
