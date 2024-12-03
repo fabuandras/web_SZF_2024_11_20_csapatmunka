@@ -4,13 +4,23 @@
     padding: 10px;
 }
 
+body {
+    background-image: url(kepek/hatter.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
 main {
-    border: 1px solid white;
-    border-radius: 15px;
-    width: 100%;
-    max-width: 1000px;
+    width: 90%;
+    max-width: 900px;
     margin: auto;
-    background-color: black;
+    border: 3px solid black;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
 }
 
 h1 {
@@ -65,8 +75,6 @@ footer {
     color: white;
 }
 
-
-
 /* Reszponzívitás */
 
 main {
@@ -99,8 +107,6 @@ footer {
     grid-area: f;
 }
 
-
-
 /* Tabletnézet: 800px */
 
 @media screen and (max-width: 800px) {
@@ -114,8 +120,6 @@ footer {
         "f f";
     }
 }
-
-
 
 /* Mobilnézet: 600px */
 
