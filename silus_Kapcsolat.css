@@ -29,6 +29,18 @@ div {
     padding: 20px;
 }
 
+.icon_telephone {
+    color: green;
+}
+
+.icon_email {
+    color: blue;
+}
+
+.bori-andras {
+    color: brown;
+}
+
 /* Reszponzívitás */
 
 main {
