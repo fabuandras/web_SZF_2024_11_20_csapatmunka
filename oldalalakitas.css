@@ -20,7 +20,7 @@ main {
     border: 3px solid black;
     border-radius: 15px;
     background: rgba(0, 0, 0, 0.3);
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(2px);
 }
 
 h1 {
@@ -30,6 +30,12 @@ h1 {
     border-left: 3px solid black;
     border-right: 3px solid black;
     border-radius: 15px;
+}
+
+h3 {
+    color: black;
+    text-transform: uppercase;
+    border-left: 3px solid black;
 }
 
 .cim {
@@ -83,7 +89,7 @@ li a:hover:not(.active) {
 }
 
 footer {
-    border-top: 1px solid burlywood;
+    border-top: 1px solid black;
     text-align: center;
     color: white;
 }
